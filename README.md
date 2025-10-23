@@ -40,7 +40,6 @@ The chatbot follows a two-step **LangChain** sequence, designed for robustness a
     * This complete context is passed back to the LLM, which synthesizes a final, easy-to-read **natural language answer** for the user.
 ![Project Architecture](https://github.com/Vishhhwajeet007/NL2SQL-Chatbot/blob/main/Project%20Architecture.png)
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
