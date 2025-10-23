@@ -49,23 +49,8 @@ The chatbot follows a two-step **LangChain** sequence, designed for robustness a
 2.  **MySQL Database:** You need access to a running MySQL instance and a database you want to query.
 3.  **Groq API Key:** Get an API key from [Groq Console](https://console.groq.com/keys).
 
-### Installation
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [YOUR_REPO_URL]
-    cd [YOUR_REPO_NAME]
-    ```
-
-2.  **Create a Virtual Environment (Recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    .\venv\Scripts\activate    # On Windows
-    ```
-
 3.  **Install Dependencies:**
-    Create a `requirements.txt` file (if you haven't already) containing the following:
+    Create a `requirements.txt` file containing the following:
 
     ```
     langchain
@@ -87,14 +72,6 @@ The chatbot follows a two-step **LangChain** sequence, designed for robustness a
     ```
     GROQ_API_KEY="YOUR_GROQ_API_KEY_HERE"
     ```
-
-### Running the App
-
-1.  **Launch Streamlit:**
-    ```bash
-    streamlit run app.py
-    ```
-    *(Assuming your main script is named `app.py`)*
 
 2.  **Connect to MySQL:**
     * The Streamlit app will open in your browser.
